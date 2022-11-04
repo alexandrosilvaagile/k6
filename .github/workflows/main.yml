@@ -3,11 +3,6 @@ on:
   workflow_dispatch:
   
 jobs:
-  stages:
-  - build
-  - deploy
-  - loadtest-local
-
   image:
     name: ubuntu:latest
 
